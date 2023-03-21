@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MediaMarket</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="icon" type="image/x-icon" href="./images/logo.png" />
+  </head>
+  <body>
+    <header>
+      <h1>
+        <i>M</i>edia <img src="images/logo_xl.png" alt="" /> <i>M</i>arket
+      </h1>
+      <div class="search-bar">
+        <input
+          type="text"
+          class="search-bar-input"
+          placeholder="Szukaj..."
+          autocomplete="off"
+        />
+        <div class="search-bar-icon">
+          <img src="images/lupa.svg" alt="" />
+        </div>
+      </div>
+      <div class="header-basket">
+        <img src="./images/shopping_cart.svg" alt="" /><span
+          class="basket-amount"
+          >Koszyk</span
+        >
+        <button class="basket-clear">x</button>
+      </div>
+    </header>
+    <main class="container">
+      <aside class="categories">
+        <h1 class="categories-title">Kategorie</h1>
+        <section class="categories-items"></section>
+      </aside>
+      <section class="products"></section>
+      <p class="no-results">Nie znaleziono żadnego produktu.</p>
+    </main>
+
+    <script src="js/main.js"></script>
+    <script src="js/products.js"></script>
+  </body>
+</html>
